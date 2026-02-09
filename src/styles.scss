@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@forward "./assets/styles/tokens/_space";
+@forward "./assets/styles/tokens/_typography";
+@forward "./assets/styles/tokens/_colors";
+@forward "./assets/styles/base/_reset";
