@@ -1,0 +1,5 @@
+@if (status()) {
+  <div class="status-badge" [ngClass]="REQUEST_STATUS_UI[status()].class">
+    {{ REQUEST_STATUS_UI[status()].label }}
+  </div>
+}

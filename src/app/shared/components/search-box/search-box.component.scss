@@ -1,0 +1,35 @@
+@use "../../../../styles" as *;
+
+.search-box {
+  width: 100%;
+
+  .input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    input {
+      width: 100%;
+      padding: $space-8 $space-40 $space-8 $space-12; /* extra space for buttons on the right */
+      box-sizing: border-box;
+    }
+
+    button {
+      position: absolute;
+      right: $space-4;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: $space-4 $space-8;
+      font-size: $font-16;
+    }
+
+    .search-btn {
+      right: $space-32;
+    }
+
+    .clear-btn {
+      right: $space-4;
+    }
+  }
+}

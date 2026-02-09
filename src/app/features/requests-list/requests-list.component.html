@@ -1,0 +1,28 @@
+<div class="request-list-container">
+  <div class="search-box-wrapper">
+    <app-search-box
+      placeholder="Search requests..."
+      [realtime]="true"
+      (search)="onSearch($event)"
+    />
+  </div>
+
+  <div class="request-list-content">
+    @for (request of filteredRequests(); track request.id) {
+      <app-request-card
+        [title]="request.title"
+        [description]="request.description"
+        [createdAt]="request.createdAtFormatted"
+        [status]="request.status"
+        [searchTerm]="currentSearchTerm()"
+      />
+      @if (!$last) {
+        <hr class="divider" />
+      }
+    }
+    @if (noResultsFound()) {
+      <p class="no-requests">No requests found...</p>
+    }
+    <!-- TODO: Add error handling UI and loading skeleton -->
+  </div>
+</div>

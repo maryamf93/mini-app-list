@@ -1,0 +1,104 @@
+{
+  "message": "",
+  "status": 200,
+  "requests": [
+    {
+      "id": 1,
+      "title": "Office supplies restock",
+      "description": "Request for comprehensive office supplies restock for the marketing department including 10 reams of printer paper, assorted ballpoint pens in multiple colors, sticky note pads in various sizes, and file folders. The current inventory is running critically low and we need these items to maintain daily operations and upcoming campaign planning sessions scheduled for next week.",
+      "createdAt": "2024-01-15T09:30:00Z",
+      "status": "approved"
+    },
+    {
+      "id": 2,
+      "title": "New laptop for developer",
+      "description": "MacBook Pro 16-inch with M3 chip, 32GB RAM, and 1TB SSD needed for senior software engineer Sarah Chen who is joining the development team next month. The new hire will be working on our cloud infrastructure projects and requires high-performance hardware to run multiple virtual machines and development environments simultaneously. This is a standard onboarding requirement for senior engineering positions.",
+      "createdAt": "2024-01-18T14:20:00Z",
+      "status": "approved"
+    },
+    {
+      "id": 3,
+      "title": "Conference room booking",
+      "description": "Reserve the main conference room on the 5th floor for our Q1 strategic planning meeting scheduled for January 25th from 9:00 AM to 4:00 PM. We'll need the room set up with the projector, whiteboard markers, and video conferencing equipment as several remote team members will be joining virtually. Catering will be arranged separately for lunch and afternoon refreshments.",
+      "createdAt": "2024-01-20T10:15:00Z",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "title": "Software license renewal",
+      "description": "Annual renewal of Adobe Creative Cloud licenses for our design team consisting of 5 seats. These licenses are essential for our graphic designers who use Photoshop, Illustrator, and InDesign daily for client projects and marketing materials. The current licenses expire at the end of this month and we need to ensure there's no interruption in service. The total cost is approximately $3,000 for the year.",
+      "createdAt": "2024-01-22T11:45:00Z",
+      "status": "approved"
+    },
+    {
+      "id": 5,
+      "title": "Remote work equipment",
+      "description": "Request for a Herman Miller Aeron ergonomic chair and a 32-inch curved monitor for employee Marcus Thompson who has transitioned to permanent remote work status. While the company policy covers basic home office setup, this request exceeds the standard $500 budget allocation. Employee is experiencing back pain and believes these upgrades would significantly improve productivity and comfort during long work sessions.",
+      "createdAt": "2024-01-23T08:00:00Z",
+      "status": "rejected"
+    },
+    {
+      "id": 6,
+      "title": "Travel reimbursement",
+      "description": "Reimbursement request for business travel expenses to San Francisco for critical client meeting with TechVision Inc. Expenses include round-trip flight ($450), two nights hotel accommodation at Marriott Downtown ($380), ground transportation via Uber ($85), and client dinner at Ruth's Chris Steakhouse ($220). All receipts are attached and expenses are within company travel policy guidelines. The meeting resulted in securing a contract extension worth $150,000.",
+      "createdAt": "2024-01-24T16:30:00Z",
+      "status": "approved"
+    },
+    {
+      "id": 7,
+      "title": "Training workshop access",
+      "description": "Registration for AWS Solutions Architect Associate certification course for cloud infrastructure team member Jennifer Park. The three-day intensive workshop costs $2,400 and includes exam voucher, study materials, and hands-on lab access. This certification aligns with our department's goal to have all senior engineers AWS-certified by Q2 and will enhance our team's capability to design and deploy scalable cloud solutions for clients.",
+      "createdAt": "2024-01-25T13:10:00Z",
+      "status": "pending"
+    },
+    {
+      "id": 8,
+      "title": "IT support ticket escalation",
+      "description": "Critical escalation for production database server maintenance that requires immediate attention. The primary PostgreSQL database is experiencing performance degradation with query response times increasing by 300% over the past 48 hours. This is affecting customer-facing applications and could lead to service outages if not addressed urgently. IT team requests approval for weekend emergency maintenance window and potential hardware upgrade if diagnostics reveal capacity issues.",
+      "createdAt": "2024-01-26T07:45:00Z",
+      "status": "approved"
+    },
+    {
+      "id": 9,
+      "title": "Marketing budget increase",
+      "description": "Request for additional $5,000 allocation to Q1 social media advertising budget to capitalize on trending market opportunities. Our recent LinkedIn campaign generated 40% higher engagement than projected, and competitor analysis shows increased market share available in our target demographic. The additional funds would be used for Instagram and Facebook ads targeting the 25-35 age group during peak engagement periods in February and March.",
+      "createdAt": "2024-01-27T15:20:00Z",
+      "status": "rejected"
+    },
+    {
+      "id": 10,
+      "title": "Parking space allocation",
+      "description": "Request for dedicated parking spot near the main building entrance due to recent knee surgery and ongoing physical therapy. Employee is currently experiencing difficulty walking long distances from the overflow parking lot to the office, especially during inclement weather. Medical documentation from orthopedic surgeon is attached. Request is for temporary allocation for approximately 8-12 weeks during recovery period.",
+      "createdAt": "2024-01-28T09:00:00Z",
+      "status": "rejected"
+    },
+    {
+      "id": 11,
+      "title": "Office plant maintenance",
+      "description": "Approval for monthly plant care service contract with GreenSpace Office Solutions to maintain the 25 plants throughout our office space. The service includes weekly watering, bi-weekly pruning, monthly fertilization, and pest control as needed. Studies show that office plants improve air quality and employee wellbeing, reducing sick days by up to 15%. The contract costs $180 per month and includes replacement of any plants that don't thrive.",
+      "createdAt": "2024-01-29T12:30:00Z",
+      "status": "approved"
+    },
+    {
+      "id": 12,
+      "title": "Team building event",
+      "description": "Budget approval request for February team building activity at Mystery Escape Rooms for the entire customer service department of 15 employees. The event would include two hours of escape room challenges followed by team dinner at nearby restaurant. Total estimated cost is $850 including activity fees, dinner, and transportation. This quarterly team building activity has historically improved interdepartmental communication and employee satisfaction scores.",
+      "createdAt": "2024-01-30T10:45:00Z",
+      "status": "pending"
+    },
+    {
+      "id": 13,
+      "title": "Security badge replacement",
+      "description": "Request for replacement security access badge for employee ID #4782 due to lost card. Original badge was misplaced during business trip to Chicago last week. Employee has already filed a report with building security and confirmed the lost badge was deactivated to prevent unauthorized access. Standard $25 replacement fee will be deducted from next paycheck as per company policy. Temporary visitor badge is currently being used for building access.",
+      "createdAt": "2024-01-31T08:15:00Z",
+      "status": "approved"
+    },
+    {
+      "id": 14,
+      "title": "Upgrade to standing desk",
+      "description": "Request to upgrade our Google Workspace cloud storage allocation from current 2TB to 5TB to accommodate growing data needs across all departments. Current storage is at 87% capacity and we're projected to hit the limit within 6 weeks. The marketing team's video content library and the engineering team's code repositories are the primary drivers of storage growth. Upgrade costs an additional $120 per month and would provide headroom for the next 12-18 months.",
+      "createdAt": "2024-02-07T08:30:00Z",
+      "status": "pending"
+    }
+  ]
+}

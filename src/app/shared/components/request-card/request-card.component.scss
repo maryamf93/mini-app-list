@@ -1,0 +1,27 @@
+@use "../../../../styles" as *;
+
+.request-card {
+  display: flex;
+  flex-direction: column;
+  padding: $space-16;
+}
+
+.request-card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $space-8;
+
+  h3 {
+    font-size: $font-20;
+    font-weight: 600;
+  }
+}
+
+.request-card-date {
+  margin-top: auto;
+  font-size: $font-16;
+  font-weight: 500;
+  color: $color-gray-600;
+  margin-top: $space-16;
+}

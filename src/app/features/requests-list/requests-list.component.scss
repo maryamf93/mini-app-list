@@ -1,0 +1,26 @@
+@use "../../../styles" as *;
+
+.search-box-wrapper {
+  position: sticky;
+  top: 0;
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+  padding: $space-16;
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.25);
+}
+
+.request-list-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  width: 100%;
+}
+
+.no-requests {
+  text-align: center;
+  margin-top: $space-48;
+  font-size: $font-18;
+  color: $color-gray-600;
+}

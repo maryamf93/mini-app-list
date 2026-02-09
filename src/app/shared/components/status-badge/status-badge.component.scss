@@ -1,0 +1,25 @@
+@use "../../../../styles" as *;
+
+.status-badge {
+  padding: $space-4 $space-8;
+  border-radius: $space-12;
+  font-size: $font-12;
+  font-weight: 600;
+}
+
+.status {
+  &-pending {
+    color: #92400e;
+    background-color: #fef3c7;
+  }
+
+  &-approved {
+    color: #065f46;
+    background-color: #d1fae5;
+  }
+
+  &-rejected {
+    color: #991b1b;
+    background-color: #fee2e2;
+  }
+}

@@ -1,0 +1,18 @@
+<form class="search-box" (submit)="onSubmit(); $event.preventDefault()">
+  <div class="input-wrapper">
+    <input type="text" [formControl]="control" [placeholder]="placeholder()" />
+
+    @if (!realtime()) {
+      <button type="submit" class="search-btn" aria-label="Search">🔍</button>
+    }
+
+    <button
+      type="button"
+      class="clear-btn"
+      (click)="clear()"
+      aria-label="Clear"
+    >
+      ✕
+    </button>
+  </div>
+</form>

@@ -1,0 +1,10 @@
+<div class="request-card">
+  <div class="request-card-title">
+    <h3 [innerHTML]="title() | highlight: searchTerm()"></h3>
+    <app-status-badge [status]="status()" />
+  </div>
+  <div class="request-card-content">
+    <p [innerHTML]="description() | highlight: searchTerm()"></p>
+  </div>
+  <span class="request-card-date">{{ createdAt() }}</span>
+</div>
