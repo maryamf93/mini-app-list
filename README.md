@@ -1,27 +1,82 @@
-# ListMiniApp
+# Request Management Mini App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+A modern, performant Angular 17 application for managing and filtering organizational requests. Built with standalone components, signals, and reactive programming patterns.
 
-## Development server
+## 🎯 Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This mini-app provides a clean interface to view, search, and filter requests with real-time updates. It demonstrates best practices in Angular development including standalone components, signal-based state management, and OnPush change detection strategy.
 
-## Code scaffolding
+## ✨ Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Real-time Search**: Debounced search functionality with text highlighting
+- **Status Management**: Visual status badges (Approved, Pending, Rejected)
+- **Performance Optimized**: OnPush change detection and computed signals
+- **Type Safety**: Strongly typed with TypeScript 5.4+
+- **Clean Architecture**: Separation of concerns with API, Core, Features, and Shared layers
 
-## Build
+## 🏗️ Architecture
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+src/
+├── app/
+│   ├── api/              # API integration layer (DTOs, services)
+│   ├── core/             # Core functionality (mappers, enums, utilities)
+│   ├── features/         # Feature/pages (requests-list)
+│   └── shared/           # Reusable components, pipes, models
+└── assets/
+    ├── mocks/            # Mock data for development
+    └── styles/           # Design tokens and base styles
+```
 
-## Running unit tests
+## 🚀 Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+# Install dependencies
+npm install
 
-## Running end-to-end tests
+# Start development server
+ng serve
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Navigate to `http://localhost:4200/` after starting the dev server.
 
-## Further help
+## 🛠️ Technology Stack
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Angular 17.3** with standalone components
+- **TypeScript 5.4** for type safety
+- **RxJS 7.8** for reactive programming
+- **SCSS**
+
+## 🔮 Future Improvements
+
+Given additional time, the following enhancements would further improve performance and code quality:
+
+### Performance Optimizations
+
+- Implement virtual scrolling for large datasets (e.g., `@angular/cdk/scrolling`)
+- Add pagination or infinite scroll to reduce initial load time
+- Implement service worker for offline capabilities and caching
+
+### Design
+
+- Implement "layout component" to unify the visual of all the pages
+- Responsive Design: Mobile-first approach with SCSS architecture
+
+### Code Quality & Features
+
+- Error boundary implementation with user-friendly error messages
+- Advanced filtering (multi-select status, date ranges, sorting)
+- Accessibility support
+- Internationalization (i18n) support for multi-language
+- HTTP interceptors for authentication, error handling (4xx, 5xx, ...), and request/response transformation
+
+### Developer Experience
+
+- Husky pre-commit hooks with linting and formatting
+
+---
+
+<br>
+<br>
+
+Author: Maryam Fooladi
